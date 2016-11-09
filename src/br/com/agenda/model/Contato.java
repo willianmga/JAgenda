@@ -4,6 +4,7 @@ import java.util.Calendar;
 
 public class Contato {
 
+	private int codigo;
 	private String nome;
 	private Calendar dataNascimento;
 	private String endereco;
@@ -75,6 +76,14 @@ public class Contato {
 	
 	public void setPerfilGitHub(String perfilGitHub) {
 		this.perfilGitHub = perfilGitHub;
+	}
+
+	public int getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
 	}
 	
 }

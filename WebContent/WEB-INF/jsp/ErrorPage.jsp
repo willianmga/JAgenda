@@ -8,23 +8,17 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-		<title>JAgenda - Sua agenda virtual</title>
+		<title>Ops. Aconteceu um erro inesperado</title>
 	</head>
 	<body>
-
+	
 		<c:import url="/WEB-INF/jsp/cabecalho.jsp" />
 		
-		<h2>Página Inicial</h2>
-		
-		<form action="cadastrar-contato.jsp" method="post">
-			<input type="submit" value="Cadastrar novo contato"/>
-		</form>
-		
-		<form action="contato" method="get">
-			<input type="submit" value="Listar todos contatos"/>
-		</form>			
+		<h1>Ops. Aconteceu um erro inesperado..</h1>
+		<h2>Mas estamos nos recuperando deste erro. Fique traquilo</h2>
+		<h2>Se preferir, <a href="index.jsp" title="volte à página inicial">volte à página inicial</a> </h2>
 		
 		<c:import url="/WEB-INF/jsp/rodape.jsp" />
-			
+	
 	</body>
 </html>

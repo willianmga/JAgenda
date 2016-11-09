@@ -1,0 +1,13 @@
+CREATE TABLE [dbo].[Contato] (
+  [id] int IDENTITY NOT NULL,
+  [nome] varchar(60) NULL,
+  [dataNascimento] date NULL,
+  [endereco] varchar(100) NULL,
+  [telefoneCelular] varchar(11) NULL,
+  [telefoneResidencial] varchar(11) NULL,
+  [perfilFacebook] varchar(50) NULL,
+  [perfilLinkedIn] varchar(50) NULL,
+  [perfilGitHub] varchar(50) NULL,
+  PRIMARY KEY CLUSTERED ([id])
+)
+GO
